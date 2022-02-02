@@ -1,0 +1,36 @@
+1. Delete kelas tidak bisa jika masih ada siswa yang memiliki kelas itu (done)
+2. Harus ada fitur download kode kelas untuk upload data siswa menggunakan excel (done)
+3. paging data siswa (done)
+4. semua tabel yang ada combo nya (done)
+5. tombol token sama aktifasi ada bugs (done)
+6. bank soal di lock ketika ada di jadwal ujian (done)
+7. buat tbl_status untuk menyimpan data siswa yang mengikuti ujian biar tidak mengikuti ujian lagi kalau sudah pernah menyelesaikan ujian
+8. audio di soal
+	a. batasi hanya 1 putaran saja
+	b. setiap ganti nomor semua audio mati (done)
+9. soal essay jangan ada PG nya (done)
+10 soal essay jawabannya save juga ke database dong (done)
+11. login masuk database status_ujian (done)
+12. siswa waktu masuk database lalu cek logout dan login apakah waktu melanjutkan (done)
+13. gak bisa login kalau status sudah 1 di tbl_status_ujian(done)
+14. Otomatis warning ketika waktu ujian habis (done)
+15. membuat tombol selesai ujian pada akhir soal (done)
+16. tombol selesai bisa update tbl_status_ujian (done)
+17. tampilan client mobile version
+18. jika anak logout tapi belum klik tombol selesesai ada data nya (done)
+19. logo dan login image admin (done)
+20. login admin (done)
+21. identitas sekolah, logo dan slogan masuk database (done)
+22. tombol hapus semua siswa, semua login, semua status (done)
+
+truncate tbl_status_ujian;
+truncate tbl_jawaban;
+
+23. cetak kartu peserta (done)
+24. cetak nilai (done)
+25. cetak jadwal (done)
+26. download template jadwal (done)
+27. export nilai ke excel (done)
+28. pilah antara admin dan guru (done)
+29. upload file file soal (done)
+
